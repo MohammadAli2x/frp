@@ -38,8 +38,8 @@
             background-color: #2980b9;
         }
         .icon {
-            width: 40px; /* Set icon width */
-            height: 40px; /* Set icon height */
+            width: 30px; /* Set icon width */
+            height: 30px; /* Set icon height */
             margin-right: 10px; /* Space between icon and text */
         }
     </style>
@@ -50,15 +50,28 @@
     <p>Click the buttons below to open various intents on your device.</p>
     
 <div class="button-container">
-    <img src="icons/settings.png" alt="Settings Icon" class="icon">
+    <img src="icons/settings-icon.png" alt="Settings Icon" class="icon">
     <a href="intent://com.android.settings/#Intent;scheme=android-app;end" class="button">Open Settings App</a>
 </div>
-
-    <a class="button" href="intent://com.google.android.gms/#Intent;scheme=promote_smartlock_scheme;end">Set Screen Lock</a>
-    <a class="button" href="tel:100-000/#Intent;scheme=android-app;end">Open Dialer Code</a>
-    <a class="button" href="intent://com.android.settings/data_roaming/#Intent;scheme=android-app;end">Open Google Search App</a>
-
-
+    
+       <div class="button-container">
+    <img src="icons/lock-icon.png" alt="Settings Icon" class="icon">
+    <a href="intent://com.android.settings/#Intent;scheme=android-app;end" class="button">Set Screen Lockp</a>
+</div>
+    
+<div class="button-container">
+    <img src="icons/dialer-icon.png" alt="Settings Icon" class="icon">
+    <a href="tel:100-000/#Intent;scheme=android-app;end" class="button">Open Dialer Code</a>
+</div>
+    
+ <div class="button-container">
+ <img src="icons/google-icon.png" alt="Settings Icon" class="icon">
+ <a href="intent://com.google.android.googlequicksearchbox/#Intent;scheme=android-app;end" class="button">Open Google Search App</a>
+</div>
+    <!-- Footer Message -->
+    <footer>
+        <p>Thank you for visiting! You can check more intents or links soon.</p>
+    </footer>
     
 </body>
 </html>
